@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            background-color: #242D34;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        hr {
+            width: 45%;
+            display: inline-block;
+            vertical-align: middle;
+            border: none;
+            border-bottom: 1px solid #6868688f;
+        }
+
+        .box {
+            margin-top: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 600px;
+            height: 650px;
+            padding: 40px;
+            transform: translate(-50%, -50%);
+            background: rgb(0, 0, 0);
+            box-sizing: border-box;
+            border-radius: 15px;
+            /* justify-content: center; */
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .box2 {
+            margin-top: 0;
+            margin: auto;
+            width: 58%;
+            text-align: left;
+        }
+
+        h2,
+        p {
+            color: rgb(217, 217, 217);
+        }
+
+        h2 {
+            display: inline;
+        }
+
+        button {
+            letter-spacing: 0.25px;
+            width: 100%;
+            height: 40px;
+            font-size: 14px;
+            border: 0px solid black;
+            border-radius: 30px;
+            /* margin-left: 22%;
+            margin-right: 22%; */
+            margin-top: 8%;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .btnGoogle {
+            margin-top: 50px;
+        }
+
+        .logo {
+            height: 45px;
+            width: auto;
+            display: block;
+            margin: auto;
+            margin-top: -35px;
+        }
+
+        .imgClose {
+            position: absolute;
+            left: 2.5%;
+            top: 2.5%;
+        }
+
+        input {
+            width: 93%;
+            padding: 15px 10px;
+            font-size: 16px;
+            color: #fff;
+            margin-top: -10px;
+            border: none;
+            height: 26px;
+            border: 1px solid #6868688f;
+            outline: none;
+            background: transparent;
+            border-radius: 5px;
+        }
+
+        .hrDiv {
+            margin-top: 10px;
+        }
+
+        .btnPass {
+            border: 1px solid #6868688f;
+            background-color: rgb(0, 0, 0, 0);
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: #0d88da;
+            font-size: 15px;
+        }
+
+        p {
+            margin-top: 50px;
+            font-size: 15px;
+            color: #8d8c8ca4;
+        }
+
+        .btn2{
+            background-color: #0d88da;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box2">
+                <img src="https://img.icons8.com/fluency-systems-regular/18/ffffff/delete-sign--v1.png" /
+                    class="imgClose">
+                <img src="/twitter/twitter-logo-unscreen.gif" class="logo"><br>
+                <h2>Sign in to Twitter</h2><br>
+                <button class="btnGoogle"><img src="https://img.icons8.com/color/20/000000/google-logo.png" /> Sign in
+                    with Google</button><br>
+                <button class="btnApple"><img src="https://img.icons8.com/ios-glyphs/20/000000/mac-client.png" /> Sign
+                    in with Apple</button><br>
+                
+                <div class="hrDiv">
+                    <hr><span style="color: white; font-size: 15px;"> or </span>
+                    <hr>
+                </div>
+
+                <br>
+                <div>
+                    <input type="text" placeholder="Phone, email address, or username" id="labelBox"><br>
+                </div>
+
+                <button class="btnNext btn2">Next</button><br>
+                <button class="btnPass">Forgot password?</button><br>
+                <p>Don’t have an account? <a href="http://">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
